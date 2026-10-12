@@ -1,103 +1,66 @@
-# ⚙️ DevOps & System Engineering Roadmap
+# ⚙️ Teknoloji ve Mühendislik Yol Haritaları
 
-![Roadmap](https://img.shields.io/badge/Roadmap-DevOps-2496ED?style=for-the-badge&logo=linux&logoColor=white)
-![Obsidian](https://img.shields.io/badge/Obsidian-Compatible-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white)
-![Git](https://img.shields.io/badge/Git-Version_Control-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Status](https://img.shields.io/badge/Status-In_Progress-orange?style=for-the-badge)
+![Teknoloji](https://img.shields.io/badge/Teknoloji-Mühendislik-2563EB?style=for-the-badge&logo=probot&logoColor=white)
+![Obsidian](https://img.shields.io/badge/Obsidian-Uyumlu-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white)
+![Markdown](https://img.shields.io/badge/Markdown-Bilgi_Bankası-000000?style=for-the-badge&logo=markdown&logoColor=white)
+![Durum](https://img.shields.io/badge/Durum-Geliştiriliyor-orange?style=for-the-badge)
 
-A structured, hands-on roadmap for learning **DevOps and System Engineering**, from fundamental concepts to advanced infrastructure and automation.
+Yazılım mühendisliği, sistem mimarisi ve modern teknolojiler üzerine oluşturulmuş kişisel bir **teknoloji öğrenme ve bilgi bankasıdır.**
 
-This repository contains organized notes, practical exercises, commands, configurations, and learning resources. It is designed to be used both as a **GitHub repository** and an **Obsidian knowledge base**.
+Bu depo; farklı teknoloji alanlarında hazırlanmış öğrenme yol haritalarını, teknik notları, uygulamalı örnekleri, komutları, yapılandırmaları ve araştırmaları bir araya getirir.
 
-## 📚 Learning Roadmap
+Backend geliştirmeden veritabanlarına, DevOps süreçlerinden ağ teknolojilerine kadar farklı alanlarda edinilen bilgileri düzenli, bağlantılı ve sürekli geliştirilebilir bir yapıda tutmayı amaçlar.
 
-| # | Topic | Focus |
-|---|---|---|
-| 01 | Operating Systems | Linux, Windows Server, Bash, PowerShell |
-| 02 | Networking | TCP/IP, DNS, DHCP, VLANs, routing, firewalls |
-| 03 | Version Control | Git, GitHub, branching and merging |
-| 04 | Server Administration | Active Directory, IIS, user and group management |
-| 05 | Virtualization & Backup | VMware, Hyper-V, Veeam, disaster recovery |
-| 06 | Containers | Docker, Docker Compose, container networking |
-| 07 | CI/CD & Automation | GitHub Actions, deployment automation, Ansible |
-| 08 | Cloud & Infrastructure | Cloud fundamentals, AWS, Terraform |
-| 09 | Monitoring & Security | Logging, monitoring, server security, recovery testing |
-| 10 | Advanced DevOps | Kubernetes, Infrastructure as Code, Prometheus, Grafana |
+## 📚 Teknoloji Alanları
 
-## 🗂️ Repository Structure
+Depo, aşağıdaki alanlar başta olmak üzere farklı teknoloji konularını kapsar:
 
-```text
-DevOps/
-├── README.md
-├── Operating Systems.md
-├── Networking.md
-├── Version Control.md
-├── Server Administration.md
-├── Virtualization & Backup.md
-├── Containers.md
-├── CI-CD & Automation.md
-├── Cloud & Infrastructure.md
-├── Monitoring & Security.md
-└── Advanced DevOps.md
-```
+- **Programlama ve Yazılım Geliştirme** — Java, JavaScript, TypeScript, Node.js, Spring Boot, Next.js
+- **Veritabanları ve Veri Depolama** — PostgreSQL, MySQL, MongoDB, veritabanı tasarımı
+- **Önbellekleme ve Mesajlaşma** — Redis, önbellekleme stratejileri, mesaj kuyrukları
+- **Yazılım Mimarisi** — Monolitik mimari, modüler monolit, SOA, mikroservisler
+- **DevOps ve Otomasyon** — Git, CI/CD, Docker, Ansible
+- **İşletim Sistemleri** — Linux, Ubuntu, Windows Server, Bash, PowerShell
+- **Bilgisayar Ağları** — TCP/IP, DNS, DHCP, HTTP/HTTPS, yönlendirme
+- **Bulut ve Altyapı** — AWS, Terraform, sanallaştırma
+- **Sistem Yönetimi** — IIS, Active Directory, sunucu yönetimi
+- **İzleme ve Güvenlik** — Günlük kayıtları, Prometheus, Grafana, uygulama güvenliği
+- **Sistem Tasarımı** — Ölçeklenebilirlik, yük dengeleme, yüksek erişilebilirlik, hata toleransı
+- **Yapay Zekâ** — Büyük dil modelleri, yerel modeller, yapay zekâ destekli yazılım geliştirme
 
-Each topic is maintained in a separate Markdown file to keep the knowledge base modular, searchable, and easy to expand.
+*Bu alanlar sabit bir liste değildir. Yeni teknolojiler ve öğrenme konuları zamanla depoya eklenebilir.*
 
-## 💎 Use with Obsidian
+## 💎 Obsidian ve GitHub Desteği
 
-This repository is designed to work as an Obsidian vault, allowing you to connect concepts, build knowledge graphs, and navigate between related topics.
+Bu depo hem GitHub hem de [Obsidian](https://obsidian.md/) ile kullanılabilecek şekilde hazırlanmıştır.
 
-**[⬇️ Download Obsidian](https://obsidian.md/download)**
+- **GitHub:** Sürüm kontrolü, değişiklik geçmişi ve notlara çevrim içi erişim.
+- **Obsidian:** Bağlantılı notlar, kavramlar arası ilişkiler ve görsel bilgi grafikleri.
+- **Markdown:** Taşınabilir, okunabilir ve kolayca düzenlenebilir dokümantasyon.
 
-### Getting Started
+### Başlangıç
 
-1. Install Obsidian from [obsidian.md/download](https://obsidian.md/download).
-2. Clone or download this repository to your computer.
-3. Open Obsidian and select **Open folder as vault**.
-4. Choose the downloaded repository folder.
-5. Start exploring the notes and use **Graph View** to visualize connections.
+1. Depoyu bilgisayarına klonla veya indir.
+2. Depo klasörünü Obsidian üzerinden bilgi kasası olarak aç.
+3. Mevcut yol haritalarını ve teknik notları incele.
+4. `[[Redis]]` ve `[[Mikroservisler]]` gibi dahili bağlantılar kullanarak ilişkili konuları birbirine bağla.
 
-> **Tip:** Use Obsidian's internal links (`[[Networking]]`) to connect related notes. Standard relative Markdown links can also be used for GitHub compatibility.
+[Obsidian'ı İndir](https://obsidian.md/download)
 
-## 🎯 Learning Approach
+## 🎯 Öğrenme Yaklaşımı
 
-- **Learn:** Understand the fundamentals before moving to advanced topics.
-- **Practice:** Apply concepts through local labs and virtual machines.
-- **Document:** Record commands, configurations, troubleshooting steps, and lessons learned.
-- **Build:** Connect topics through practical projects.
-- **Review:** Revisit previous topics and improve existing documentation.
+- **Anla:** Tanımları ezberlemek yerine kavramların çalışma mantığını öğren.
+- **Uygula:** Teknolojileri gerçek ortamlar ve pratik çalışmalarla dene.
+- **Dokümante Et:** Komutları, örnekleri, yapılandırmaları ve hata çözümlerini kaydet.
+- **İlişkilendir:** Farklı mühendislik alanlarındaki bağlantılı kavramları birbirine bağla.
+- **Geliştir:** Bilgilerini ve notlarını yeni deneyimlerle sürekli güncelle.
 
-## 🛠️ Tools & Technologies
+## 📌 Amaç
 
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![Windows Server](https://img.shields.io/badge/Windows_Server-0078D4?style=flat&logo=windows&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat&logo=ansible&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat&logo=terraform&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
+Bu deponun amacı; düzenli öğrenme, uygulamalı çalışmalar ve sürekli dokümantasyon yoluyla modern teknolojiler hakkında **güçlü, kapsamlı ve birbiriyle bağlantılı bir bilgi birikimi** oluşturmaktır.
 
-*The tools listed represent learning topics, not a claim of production experience with every technology.*
-
-## 📈 Progress Tracking
-
-- [ ] Operating Systems
-- [ ] Networking
-- [ ] Version Control
-- [ ] Server Administration
-- [ ] Virtualization & Backup
-- [ ] Containers
-- [ ] CI/CD & Automation
-- [ ] Cloud & Infrastructure
-- [ ] Monitoring & Security
-- [ ] Advanced DevOps
-
-## 📌 Purpose
-
-The goal of this repository is to build a solid foundation in system administration and progressively develop practical DevOps skills through structured learning, hands-on experimentation, and documentation.
+Bu depo yaşayan bir bilgi bankasıdır. Yeni beceriler, projeler ve teknolojiler öğrenildikçe gelişmeye devam eder.
 
 ---
 
-**Built for continuous learning. Focused on practical skills.**
+**Keşfet. Anla. Uygula. Geliştir.**
